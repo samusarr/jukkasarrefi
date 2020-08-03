@@ -1,0 +1,245 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+page{
+    font-family: 'Merriweather', serif;
+}
+.nav{
+    background-color: #0F467B;
+    padding: 1.2em;
+    font-size: 1.2em;
+}
+.nav-link{
+    color: ghostwhite;
+}
+#header h1{
+    margin-top: 20%;
+    font-size: 4em;
+}
+h4{
+    font-weight: 550;
+}
+a h3{
+  padding-top: 1em;
+}
+.etukuva{
+  width: inherit;  
+}
+#tahtiliikekuva{
+  width: 15em;
+  padding-top: 2em;
+}
+.vaalibtn{
+    background-color: #0F467B;
+    color: ghostwhite;
+    margin-top: 4%;
+}
+.pointbtn{
+  margin-bottom: 6em;
+  color: #0F467B;
+}
+.btn:hover{
+  color: #BAD405;
+}
+a:hover {
+    color: #BAD405;
+}
+}
+#header{
+    margin: 0 auto;
+}
+#hero{
+    text-align: center;
+}
+#kansikuva{
+    text-align: right;
+}
+a.active{
+    text-decoration: underline;
+}
+#pointit{
+  padding-top: 1em;
+  text-align: center;
+  
+}
+.pointtibox{
+  border: solid 0.1em rgba(15,70,123, 0.8);
+  border-radius: 0.8em;
+  height: 5em;
+  color: #0F467B;
+  margin-top: 0.4rem
+}
+.pointtibox h3 {
+  font-size: 1.5rem
+}
+#teesiloota h3{
+  margin-top: 5rem;
+}
+.pointtibox:hover{
+  background-color: #0F467B;
+  color: ghostwhite;
+}
+#teesiloota{
+  height: 15.8rem;
+}
+footer{
+  background-color: #0F467B;
+  text-align: center;
+  padding: 1.2em;
+  color: ghostwhite;
+  position:absolute;
+  bottom:0;
+  width:100%;
+  
+}
+.alin {
+  margin-bottom: 10em;
+}
+/*Äänestäjät sivu*/
+.leipateksti {
+  background-color: whitesmoke;
+  padding: 2em;
+  margin-top: 2em;
+  text-align: left;
+}
+
+.aanestaja-otsikot {
+  margin-top: 3em;
+}
+.keskitys {
+  text-align: center;
+}
+/*Tästä alkaa vaalikoneen määrityksiä*/
+#vaalikone{
+    text-align: center;
+}
+
+#vaaliotsikko{
+    margin-top: 5%;
+    color: #BAD405;
+    
+}
+#kysymys{
+    border: solid 0.2em #44a2e1;
+    border-radius: 1em;
+    padding: 1em;
+}
+#vastine{
+    text-align: left;
+    padding: 2em;
+    background-color: whitesmoke;
+}
+#vastine h4{
+  text-align: center;
+}
+.piilo {
+  display: none;
+}
+#startnappi {
+  width: 10em;
+  margin-top: 6em;
+}
+/*Jukka ja Tähtiliike määrityksiä*/
+.jesittely{
+  margin-top: 3em;
+  margin-bottom: 3em;
+  background-color: whitesmoke;
+}
+.jteksti{
+  padding: 3em;
+}
+.jteksti h2 {
+  margin-bottom: 1em;
+}
+#jukka2{
+  width: inherit;
+  margin-top: 4em;
+}
+#stl{
+  font-size: 1.2em;
+}
+ol {
+  font-size: 1.2rem;
+}
+ol li {
+  padding: 1rem;
+}
+/*Video sivun määrityksiä*/
+
+.video{
+  padding: 2em;
+  font-size: 1.6em;
+}
+
+.videolista{
+  margin-top: 3em;
+  text-align: center;
+}
+
+.videolista button {
+  height: 8rem;
+}
+
+.videolaatikko{
+  border: 0.4em solid #BAD405;
+  border-radius: 1em;
+  padding: 0.4rem;
+  height: 24rem;
+}
+
+#lisaavideoita {
+  margin-top: 8rem;
+}
+
+
+@media only screen and (max-width: 990px) {
+  
+.videolaatikko iframe {
+    max-height: 22.4rem;
+    height: inherit;
+    width: inherit;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  footer{
+    display: none;
+  }
+  .jesittely{
+  text-align: left;
+  margin-top: 0em;
+  }
+  .jteksti {
+  padding: 1em;
+  }
+  .aanestaja-otsikot {
+    text-align: center;
+  }
+  .leipateksti {
+    padding: 1em;
+    margin-top: 1em;
+  }
+  #startnappi{
+    margin-top: 0em;
+  }
+  #vastine{
+    text-align: left;
+    padding: 1em;
+    background-color: whitesmoke;
+    margin-top: 1em;
+  }
+  #vastine h4{
+    text-align: left;
+  }
+  
+  .videolaatikko iframe {
+    max-height: 22.4rem;
+  }
+  
+  .videolista button {
+  height: 4rem;
+  }
+  
+}
